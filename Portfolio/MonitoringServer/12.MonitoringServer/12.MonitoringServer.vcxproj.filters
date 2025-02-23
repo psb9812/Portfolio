@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LanServer">
+      <UniqueIdentifier>{06407595-5d4a-4240-99dd-cf7749c12bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetServer">
+      <UniqueIdentifier>{d94a34bc-6093-45f2-a754-d120314d8849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{6a1e3276-106c-4657-bcde-ebe0d405c88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{bb87723a-3f0b-4ccc-ab1d-ef8f79384038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LanServer.cpp">
+      <Filter>LanServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetServer.cpp">
+      <Filter>NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\HWPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Message.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Parser.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ProcessPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\RingBuffer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\SmartMessagePtr.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\SystemLog.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Contents.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionContainer.cpp" />
+    <ClCompile Include="MonitoringLanServer.cpp">
+      <Filter>LanServer</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitoringNetServer.cpp">
+      <Filter>NetServer</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="DBConnection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LanServer.h">
+      <Filter>LanServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetServer.h">
+      <Filter>NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AddressConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Dump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\HWPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\LockFreeMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\LockFreeQueue.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\LockFreeStack.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\MemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Message.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Parser.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ProcessPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\RingBuffer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\SmartMessagePtr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\SystemLog.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\TLSMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Contents.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="SessionContainer.h" />
+    <ClInclude Include="PacketProtocol.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonProtocol.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitoringLanServer.h">
+      <Filter>LanServer</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitoringNetServer.h">
+      <Filter>NetServer</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h" />
+    <ClInclude Include="DBConnection.h" />
+  </ItemGroup>
+</Project>

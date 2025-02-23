@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{406689d7-7f70-4fb1-9411-de04431e68a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{11d400ae-3d72-4187-a4b3-f68d6f37db24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChatServer">
+      <UniqueIdentifier>{c5d514b7-7823-47d6-a5dd-097248ac53c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetServer.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionContainer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="HWPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="LanClient\LanClient.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="LanClient\MonitoringClient.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemLog.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ChattingServer.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>ChatServer</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartMessagePtr.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUsage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PacketProtocol.h" />
+    <ClInclude Include="Job.h" />
+    <ClInclude Include="NetServer.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="SessionContainer.h" />
+    <ClInclude Include="CommonDefine.h" />
+    <ClInclude Include="AddressConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LanClient\ClientSession.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="HWPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LanClient\LanClient.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeQueue.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeStack.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLog.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LanClient\MonitoringClient.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemLog.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartMessagePtr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonProtocol.h" />
+    <ClInclude Include="ChattingServer.h">
+      <Filter>ChatServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUsage.h" />
+  </ItemGroup>
+</Project>

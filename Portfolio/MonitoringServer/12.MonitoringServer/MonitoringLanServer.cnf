@@ -1,0 +1,9 @@
+// 모니터링 랜 서버 Config
+
+
+//DB 정보
+DB_SERVER_IP = "127.0.0.1"
+DB_SERVER_PORT = 3306
+DB_USER_NAME = "root"
+DB_PASSWORD = "123456789a"
+DB_SCHEMA_NAME = "logdb"

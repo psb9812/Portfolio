@@ -1,0 +1,18 @@
+#pragma once
+
+#define MAX_SECTOR_X		50
+#define MAX_SECTOR_Y		50
+
+#define ID_LEN				20
+#define NICKNAME_LEN		20
+#define SESSIONKEY_LEN		64
+
+#define MAX_MESSAGE_LEN		512
+
+#define TIMER_INTERVAL		1000
+
+#define MONITOR_SERVER_ON
+#define MONITOR_SERVER_IP L"127.0.0.1"
+#define MONITOR_SERVER_PORT 10102
+
+#define CHAT_SERVER_ID		2

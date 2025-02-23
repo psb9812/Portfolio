@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{70f231e0-c171-4b66-b4c7-e979c8cb48f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Contents.h" />
+    <ClInclude Include="IUser.h" />
+    <ClInclude Include="NetServer.h" />
+    <ClInclude Include="PacketProtocol.h" />
+    <ClInclude Include="Session.h" />
+    <ClInclude Include="SessionContainer.h" />
+    <ClInclude Include="AddressConverter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="HWPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeQueue.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="LockFreeStack.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPerformanceCounter.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartMessagePtr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemLog.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSMemoryPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuUsage.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLog.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Contents.cpp" />
+    <ClCompile Include="NetServer.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionContainer.cpp" />
+    <ClCompile Include="HWPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPerformanceCounter.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartMessagePtr.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemLog.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuUsage.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

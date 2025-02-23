@@ -1,0 +1,15 @@
+#pragma once
+
+#define ID_LEN	20
+#define NICKNAME_LEN	20
+#define IP_LEN	16
+
+#define DB_CONFIG_LEN	32
+
+#define TIMER_INTERVAL		1000
+
+#define MONITOR_SERVER_ON
+#define MONITOR_SERVER_IP L"127.0.0.1"
+#define MONITOR_SERVER_PORT 10102
+
+#define LOGIN_SERVER_ID		1

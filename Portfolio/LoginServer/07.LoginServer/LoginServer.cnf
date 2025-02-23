@@ -1,0 +1,24 @@
+//////////////////////////////////////////////////
+//		로그인 서버 Config
+//////////////////////////////////////////////////
+
+// 게임 서버 (일단 사용 X)
+GAME_SERVER_IP = "127.0.0.1"
+GAME_SERVER_PORT = 3000
+
+// 채팅 서버
+CHAT_SERVER_IP = "127.0.0.1"    //"10.0.1.0"
+CHAT_SERVER_PORT = 3000
+
+// MySQL 서버
+DB_SERVER_IP = "127.0.0.1"
+DB_SERVER_PORT  = 3306
+
+//토큰 서버
+TOKEN_SERVER_IP = "127.0.0.1"
+TOKEN_SERVER_PORT = 6379
+
+//접속하는 DB 계정과 테이블
+DB_USER_NAME = "root"
+DB_PASSWORD = "123456789a"
+DB_SCHEMA_NAME = "accountdb"

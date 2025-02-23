@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LanClient">
+      <UniqueIdentifier>{f31ee7cf-8acb-4d29-8bf8-1bfd77133571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsServer">
+      <UniqueIdentifier>{32e1d99d-f448-4926-93d5-b62bfe2e8180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsServer\Contents">
+      <UniqueIdentifier>{bd83433b-64c1-4dff-b76a-5a6937894dfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonProtocol.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="EchoContents.h">
+      <Filter>ContentsServer\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginContents.h">
+      <Filter>ContentsServer\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoServer.h">
+      <Filter>ContentsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>ContentsServer</Filter>
+    </ClInclude>
+    <ClInclude Include="LanClient\ClientSession.h">
+      <Filter>LanClient</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitoringClient.h">
+      <Filter>LanClient</Filter>
+    </ClInclude>
+    <ClInclude Include="LanClient\LanClient.h">
+      <Filter>LanClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="EchoContents.cpp">
+      <Filter>ContentsServer\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginContents.cpp">
+      <Filter>ContentsServer\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>ContentsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitoringClient.cpp">
+      <Filter>LanClient</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoServer.cpp">
+      <Filter>ContentsServer</Filter>
+    </ClCompile>
+    <ClCompile Include="LanClient\LanClient.cpp">
+      <Filter>LanClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
